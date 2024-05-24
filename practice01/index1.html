@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    
+
+        <meta charset="utf-8">
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+        <title>유노코딩</title>
+        <link href="./style.css" rel="stylesheet">
+     <style>
+        p,.title
+        {
+            color: blue;
+        }
+        #workout{color: orange;}
+        *{font-family: 'Times New Roman', Times, serif;}
+        span{font-size: 1.5rem; color: rgb(66, 29, 29);}
+        h1{ text-align: center;}
+     </style>
+
+    </head>
+
+    <body>
+       
+        <h1>큰 제목입니다</h1>
+        <p>헬로우 이건 문단입니다</p>
+        <p id="text"> 아이디가 있는 문단입니다</p>
+        <p class="paragraph">클래스가 있는 문단입니다</p>
+        
+        <img src="https://search.pstatic.net/sunny/?src=http%3A%2F%2Fthumbnail.10x10.co.kr%2Fwebimage%2Fimage%2Fbasic600%2F593%2FB005931046.jpg%3Fcmd%3Dthumb%26w%3D500%26h%3D500%26fit%3Dtrue%26ws%3Dfalse&type=sc960_832"
+         width="300" height="300" alt="매크로전용이미지" title="매크로전용이미지">
+        
+        <div id="study">
+        <h1 class="title"> <span>열심히</span> 해봐용!!</h1>
+        
+        <p>텍스트를 표시하고 있습니다.
+            <strong>굵은글씨</strong>
+            <em>기울여진 글자</em>
+            <mark>형광색으로 칠함</mark>
+        </div>
+
+        <div id="workout">
+        <p>블록안에블록</p>
+        </p>
+        
+        <h2 class="title">작은 제목</h2>
+        <p>제목의 크기가 바뀌었습니다.</p>
+        </div>
+        
+        <a href="https://www.naver.com/" target="_self">
+           네이버 ㄱㄱ (현재텝)
+        </a>
+        <br><!--줄바꿈간격짧은-->
+        <a href="https://www.naver.com/" target="_blank">
+            네이버 ㄱㄱ (새로운텝)
+         </a>
+        <br><!--줄바꿈간격짧은-->
+        <a href="https://www.naver.com/" target="_blank">
+         내 html문서 (새텝)
+        </a>
+       <hr>
+       <!--라인긋기-->
+       <h2>리스트만들기 연습</h2>
+        <!--리스트만들기-->
+        <ul>
+            <li>토끼</li>
+            <li>다람쥐</li>
+            <li>청설모</li>
+
+        </ul>
+        <ol>
+
+            <a href="https://www.naver.com/" target="_blank">
+            <li>HTML</li>
+            </a>
+
+            <li>CSS</li>
+            <li>JAVAScripst</li>
+
+        </ol>
+        <input type="text" name="nickname">
+        <input type="text" name="job">
+        <hr>
+       
+        <input name="text"type="text" maxlength="5" placeholder="닉네임 입력"><br><br>
+       
+        <input name="push" type="button" value="PUSH"><br><br>
+       
+        <input name="color" type="color"><br><br>
+       
+        <input name="score" type="range" max="100" min="0"><br><br>
+       
+        <input name="birthday" type="date"><br><br>
+        <h1>하고싶은 게임 고르기</h1>
+        <select name="game">
+            <option >선택</option>
+            <option value="lol">롤</option>
+            <option value="fifa">피파</option>
+            <option value="sudden">서든</option>
+            <option value="battle">배그</option>
+        </select>
+        <br>
+        <textarea name="content" rows="10" cols="10">
+            기본적으로 쓰여있는 텍스트
+        </textarea>
+        <br>
+        <h1>하고싶은 게임 고르기</h1>
+        <form action="exam.php" method="post">
+            <input type="text" placeholder="NAME" name="name">
+            <br>
+            <select name="game">
+
+            <option >선택</option>
+            <option value="lol">롤</option>
+            <option value="fifa">피파</option>
+            <option value="sudden">서든</option>
+            <option value="battle">배그</option>
+
+            </select>
+            <input type="submit" value="전송">
+
+        </form>
+        <script src="script.js"></script>
+
+ 
+    </body>
+
+
+</html>
